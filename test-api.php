@@ -5,7 +5,7 @@ ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_report
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'test.hla-integrated.com/<branch-name>?location_id=<location-id>',
+  CURLOPT_URL => 'test.hla-integrated.com/<myFeaturedev>?location_id=<location-id>',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
